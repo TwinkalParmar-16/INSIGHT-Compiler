@@ -1,0 +1,13 @@
+[
+add(a,b2)
+c=a+b2~
+R_N(c)~
+EXIT_fun_c~
+]~
+~$
+abc=twinkal*d-4~
+[CURL(s@1:E@10:G@1)
+ temp2>5 AND c1<6~
+ add(q,w)~
+]~
+$~ 

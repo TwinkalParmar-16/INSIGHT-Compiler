@@ -1,0 +1,31 @@
+[
+add(a1,b2)
+c=a1+b2~
+R_N(c)~
+EXIT_fun_c~
+]~
+~$
+a=0~
+[
+   CURL(S@1:E@2:G@1)
+    [
+    CURL(S@:E@10:G@1)
+    a=a+4~
+    add(a,a)~
+    ]~
+     [
+      IF(a>b)
+      a=a+1~
+      REST_ALL
+       a=a+2~
+     ]~
+     a=a+c~
+     [
+   
+     CURL_C(S@:E@10)
+     a=b~
+      ]~
+  a1 NOT a2~
+  A2 NOT= A3~
+]~ 
+$~
